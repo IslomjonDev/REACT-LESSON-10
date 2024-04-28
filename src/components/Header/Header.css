@@ -1,0 +1,47 @@
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+button{
+    cursor: pointer;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navlogo{
+        display: flex;
+        align-items: center;
+        .navlink{
+            ul{
+                display: flex;
+                gap: 40px;
+                a{
+                    color: black;
+                    font-family: Roboto;
+                }
+                a:hover{
+                    color: #DC780B;
+                    transition: .2s;
+                }
+            }
+        }
+    }
+    button{
+        padding: 12px 20px;
+        border-radius: 5px;
+        background: #DC780B;
+        color: #fff;
+        border: 1px solid #DC780B;
+    }
+    button:hover{
+        background-color: #fff;
+        color: #DC780B;
+        transition: .3s;
+    }
+}

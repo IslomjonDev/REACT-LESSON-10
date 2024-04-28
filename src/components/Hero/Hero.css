@@ -1,0 +1,270 @@
+.hero{
+    display: flex;
+    padding: 150px 0;
+    align-items: center;
+    gap: 10px;
+    .hero-left{
+        h1{
+           max-width: 555px;
+           font-family: Philosopher;
+            font-size: 48.83px;
+            font-weight: 700;
+            line-height: 57.6px;
+        }
+        p{
+            width: 555px;
+            opacity: 0.7px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+    span{
+        display: flex;
+        gap: 30px;
+        margin-top: 50px;
+    }
+}
+
+.btn-left , .btn-right:hover{
+    padding: 12px 25px;
+    border-radius: 5px;
+    background: #DC780B;
+    color: #fff;
+    border: 1px solid #DC780B;
+}
+
+.btn-right , .btn-left:hover{
+    padding: 12px 25px;
+    border-radius: 5px;
+    background: #fff;
+    color: #DC780B;
+    border: 1.5px solid #DC780B;
+    transition: .3s;
+}
+
+.hero-right img{
+    width: 100%;
+}
+
+
+.features-title{
+    text-align: center;
+    h2{
+        color: #DC780B;
+    }
+}
+.features-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.features-card{
+    width: 300px;
+    text-align: center;
+    p{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    h2{
+        font-family: Philosopher;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
+
+.about{
+    margin-top: 140px;
+    display: flex;
+    gap: 97px;
+    align-items: center;
+}
+.about-right{
+    h3{
+        color: #DC780B;
+    }
+    h1{
+        width: 470px;
+        font-family: Philosopher;
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 40.63px;
+    }
+    p{
+        width: 487px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    button{
+        padding: 12px 25px;
+        border-radius: 5px;
+        background: #DC780B;
+        color: #fff;
+        border: 1.5px solid #DC780B;
+    }
+    button:hover{
+        background-color: #fff;
+        color: #DC780B;
+        transition: .3s;
+    }
+}
+
+
+.menu{
+    padding: 115px 0; 
+}
+.menu-title{
+    text-align: center;
+    margin-bottom: 60px;
+    h3{
+        color: #DC780B;
+    }
+    h1{
+        font-family: Philosopher;
+        font-size: 31.25px;
+        font-weight: 700;
+    }
+    p{
+        font-family: Roboto;
+        font-weight: 400;
+        color: #150C01;
+        opacity: .7;
+        width: 748px;
+        margin: 0 auto;
+    }
+}
+.menu-cards{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
+}
+.menu-card{
+    width: 360px;
+    border: 1px solid #0000001A
+}
+.menu-parag{
+    padding: 10px 25px 25px;
+    span{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button{
+            border-radius: 5px;
+        background: #DC780B;
+        color: #fff;
+        border: 1.5px solid #DC780B;
+        padding: 5px 10px;
+        }
+    }
+    p{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: .7;
+        margin: 20px 0;
+    }
+} 
+
+.menu-btn{
+    display: flex;
+    margin:   0 auto;
+    padding: 12px 25px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: #fff;
+    color: #DC780B;
+    border: 1.5px solid #DC780B;
+}
+.menu-btn:hover{
+    background-color: #DC780B;
+    color: #fff;
+    transition: .3s;
+}
+
+.title-title *{
+    text-align: center;
+   
+}
+.title-title{
+    margin-bottom: 70px;
+    h3{
+        color: #DC780B;
+    }
+    h1{
+        font-family: Philosopher;
+        font-size: 31.25px;
+        font-weight: 700;
+    }
+    p{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 750px;
+        margin: 0 auto;
+    }
+    
+}
+.title-card{
+    img{
+        display: flex;
+        margin: 0 auto;
+    }
+    p{
+        text-align: center;
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 24px;
+        width: 506px;
+        margin: 50px auto;
+    }
+    h5 , h4{
+        text-align: center;
+    }
+}
+.contact{
+padding: 100px 0;
+h3{
+    color: #DC780B;
+    text-align: center;
+}
+h1{
+    width: 749px;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.6px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+}
+form{
+     text-align: center;
+    input{
+        width: 750px;
+        margin: 0 auto;
+       border-radius: 10px ;
+       border: none;
+       padding: 20px;
+       outline: none;
+       border: 1px solid #e0dbdb;
+    }
+    button{
+        padding: 20px 30px;
+        margin-top: 50px;
+        border-radius: 10px;
+        background: #DC780B;
+        color: #fff;
+        border: 1.5px solid #DC780B;
+    }
+}

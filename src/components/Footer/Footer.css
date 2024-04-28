@@ -1,0 +1,15 @@
+footer{
+    padding: 130px 0;
+    display: flex;
+    justify-content: space-between;
+    .footer-card{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        span{
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
